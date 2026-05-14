@@ -20,7 +20,10 @@
             <li><a href="#">Contacto</a></li>
         </ul>
     </nav>
-    @yield('content')
+    <main>
+         @yield('content')
+    </main>
+   
 
     <script src="{{ asset('js/script.js') }}"></script>
 </body>

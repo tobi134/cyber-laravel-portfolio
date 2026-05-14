@@ -7,6 +7,9 @@ body {
     color: #fff;
     overflow-x: hidden;
 }
+main {
+    padding-top: 120px;
+}
 #burbujas-container {
     position: fixed;
     inset: 0;
@@ -39,10 +42,9 @@ body {
 ul {
     list-style: none;
     display: flex;
-    text-decoration: none;
 }
 li {
-    margin: 0 20px;
+    margin: 0 30px;
 }
 nav {
     position: fixed;
@@ -58,10 +60,18 @@ nav {
     backdrop-filter: blur(10px);
     border-radius: 50px;
     z-index: 1000;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
     transition: 0.3s;
+}
+nav a:hover {
+    color: #00fff7;
+    text-shadow:
+        0 0 5px #00fff7,
+        0 0 15px #00fff7,
+        0 0 30px #00fff7;
 }
