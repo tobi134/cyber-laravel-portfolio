@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
 
     <title>Mi sitio</title>
-
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 <body>

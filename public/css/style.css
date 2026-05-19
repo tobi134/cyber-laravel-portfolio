@@ -75,3 +75,60 @@ nav a:hover {
         0 0 15px #00fff7,
         0 0 30px #00fff7;
 }
+.hero {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 20vh;
+}
+.hero-card {
+    width: 700px;
+    padding: 40px;
+
+    background: rgba(255, 255, 255, 0.05);
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    backdrop-filter: blur(10px);
+
+    border-radius: 25px;
+
+    text-align: center;
+}
+
+.hero-header h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero-header p {
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+.hero-actions {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.hero-actions a {
+    padding: 12px 20px;
+
+    text-decoration: none;
+
+    color: white;
+
+    border-radius: 15px;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.hero-header h1 {
+    font-family: "Orbitron", sans-serif;
+}
