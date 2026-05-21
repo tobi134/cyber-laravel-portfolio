@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    
+    <div id="burbujas-container"></div>
     <nav>
         <ul>
             <li><a href="#">Inicio</a></li>
